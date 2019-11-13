@@ -321,14 +321,6 @@ func (app *WebApp) indexHandler(w http.ResponseWriter, r *http.Request) {
 			<meta charset="UTF-8">
 			<title>Emoji Vote</title>
 			<link rel="icon" href="/img/favicon.ico">
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60040560-4"></script>
-			<script>
-			  window.dataLayer = window.dataLayer || [];
-			  function gtag(){dataLayer.push(arguments);}
-			  gtag('js', new Date());
-			  gtag('config', 'UA-60040560-4');
-			</script>
 		</head>
 		<body>
 			<div id="main" class="main"></div>
